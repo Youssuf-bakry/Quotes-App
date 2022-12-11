@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_complete_guide=self.webpackChunkreact_complete_guide||[]).push([[922],{922:function(e,t,c){c.r(t);var u=c(184);t.default=function(){return(0,u.jsx)("p",{className:"centered",children:"No Quotes Found ,Check the entered URL !"})}}}]);
-//# sourceMappingURL=922.e971770b.chunk.js.map

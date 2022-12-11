@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/922.e971770b.chunk.js","mappings":"oJAIA,UAJiB,WACf,OAAO,cAAGA,UAAU,WAAU,qDAChC,C","sources":["pages/NotFound.js"],"sourcesContent":["const NotFound = () => {\r\n  return <p className=\"centered\">No Quotes Found ,Check the entered URL !</p>;\r\n};\r\n\r\nexport default NotFound;\r\n"],"names":["className"],"sourceRoot":""}
