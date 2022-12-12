@@ -5,7 +5,7 @@
 ### My first React App providing a nice quotes web application.
 
 ---
-<span style="color:blue"> *Please add a nice quote if you wish* text
+<span style="color:blue"> Please add a nice quote if you wish
  [here](https://yosefquotes.netlify.app/all-quotes)
 </span>.
 
