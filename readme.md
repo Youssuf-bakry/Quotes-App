@@ -6,7 +6,7 @@
 
 ---
 <span style="color:blue"> Please add a nice quote if you wish
- [here](https://yosefquotes.netlify.app/all-quotes) :muscle:
+ [here](https://yosefquotes.netlify.app) :muscle:
 </span>.
 
 
