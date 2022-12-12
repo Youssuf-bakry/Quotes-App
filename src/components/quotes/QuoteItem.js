@@ -1,4 +1,3 @@
-import { forwardRef } from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./QuoteItem.module.css";
 
