@@ -1,5 +1,5 @@
 .quote {
-  direction: rtl;
+  direction: auto;
   font-family: "Lalezar", cursive;
   background-color: #162b2b;
   color: white;
@@ -12,6 +12,8 @@
 
 .quote p {
   font-size: 2.5rem;
+  margin: auto;
+  width: 90%;
 }
 
 .quote figcaption {
@@ -20,3 +22,9 @@
   text-align: left;
   color: #a1e0e0;
 }
+
+/* @media (width<500px) {
+  .quote p {
+    margin-bottom: 1.5rem;
+  }
+} */

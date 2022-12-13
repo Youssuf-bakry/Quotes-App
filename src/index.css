@@ -9,7 +9,7 @@ body {
 }
 .arabic {
   font-family: "Lalezar", cursive;
-  direction: rtl;
+  direction: auto;
 }
 .centered {
   margin: 3rem auto;

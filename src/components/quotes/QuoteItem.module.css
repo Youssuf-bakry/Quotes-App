@@ -1,5 +1,5 @@
 .item {
-  direction: rtl;
+  direction: auto;
   font-family: "Lalezar", cursive;
 
   margin: 1rem 0;
@@ -52,4 +52,24 @@
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+}
+
+@media (width<500px) {
+  .btn {
+    padding: 0.5rem 1rem;
+    margin: auto;
+  }
+
+  .item {
+    gap: 0.5rem;
+    color: red;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .item figure {
+    padding: inherit 0;
+    width: auto;
+    align-self: flex-start;
+    /* margin-bottom: 1.5rem; */
+  }
 }
