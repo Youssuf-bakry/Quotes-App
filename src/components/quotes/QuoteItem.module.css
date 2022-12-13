@@ -1,7 +1,6 @@
 .item {
-  direction: auto;
+  /* direction: auto; */
   font-family: "Lalezar", cursive;
-
   margin: 1rem 0;
   padding: 1rem;
   display: flex;
@@ -10,6 +9,10 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   background-color: #c2e7f0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .item:last-of-type {
@@ -32,6 +35,7 @@
 .item p {
   margin: 0;
   margin-bottom: 0.25rem;
+  /* direction: rtl; */
 }
 
 .item figcaption {
@@ -63,12 +67,12 @@
   .item {
     gap: 0.5rem;
     color: red;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
   }
   .item figure {
     padding: inherit 0;
-    width: auto;
+    width: 90%;
     align-self: flex-start;
     /* margin-bottom: 1.5rem; */
   }

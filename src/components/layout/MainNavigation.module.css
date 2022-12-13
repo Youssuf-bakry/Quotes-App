@@ -35,3 +35,9 @@
 .nav a.active {
   color: #e6fcfc;
 }
+
+@media (width<500px) {
+  .nav ul {
+    margin-right: 2rem;
+  }
+}
