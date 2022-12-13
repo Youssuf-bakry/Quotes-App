@@ -3,10 +3,10 @@ import classes from "./QuoteItem.module.css";
 
 const QuoteItem = (props) => {
   return (
-    <li className={classes.item}>
+    <li className={classes.item} dir="auto">
       <figure>
         <blockquote>
-          <p>{props.text}</p>
+          <p dir="auto">{props.text}</p>
         </blockquote>
         <figcaption>{props.author}</figcaption>
       </figure>

@@ -44,6 +44,7 @@ const QuoteList = (props) => {
       <ul className={classes.list}>
         {sortedQuotes.map((quote) => (
           <QuoteItem
+            dir="auto"
             key={quote.id}
             id={quote.id}
             author={quote.author}

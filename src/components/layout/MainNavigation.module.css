@@ -37,7 +37,20 @@
 }
 
 @media (width<500px) {
-  .nav ul {
-    margin-right: 2rem;
+  .header {
+    justify-content: space-around;
+    gap: 0;
+    padding: 0.75rem;
+  }
+  .logo {
+    display: inline;
+    max-width: fit-content;
+    padding: 0;
+    font-size: x-large;
+  }
+  .nav {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
   }
 }
